@@ -1,0 +1,317 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.small-font{
+  font-size: smaller;
+}
+
+.spacing{
+  word-spacing: 0;
+  letter-spacing: 0;
+}
+
+
+/* navigation bar */
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+.navbar-dark .navbar-toggler {
+    border: 0;
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1rem 0 4.5rem;
+}
+
+.navbar .brandSeparate-text{
+  color: #FBCB0A;
+}
+
+#title .brand{
+  font-size: 23px;
+}
+
+.root{
+  padding: 10px 6px;
+}
+
+
+.title-gif{
+  position: relative;
+  left: 66px;
+  width: 82%;
+}
+
+.annonymous-div{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.annonymous-img{
+  width: 100%;
+}
+
+.title-details{
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  display: inline-block;
+  bottom: 50%;
+  left: 31%;
+}
+
+.typing{
+  color: #FBCB0A;
+}
+
+/* navigation bar scrolling */
+.navbar.sticky{
+    padding: 2px 0;
+    background-color: #FBCB0A;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FBCB0A;
+}
+
+.brand.brand-sticky{
+  color: white;
+}
+
+.brandSeparate-text.brandSeparate-sticky{
+  color: #1D2323;
+}
+
+.navbar-dark .navbar-nav .nav-link.root-sticky{
+  color: #1D2323;
+}
+
+.navbar-dark .navbar-nav .nav-link.root-sticky:hover{
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+/* about section styling */
+#about{
+  background-color: #1D2323;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#about h2{
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+#about img{
+  border: 2px solid #FBCB0A;
+  width: 36%;
+}
+
+.aboutme{
+  text-align: left;
+
+}
+
+@media (max-width: 991.71px) {
+  .aboutme{
+    margin-top: 45px;
+  }
+}
+
+
+
+/* works section styling */
+#works{
+  background-color: #000000;
+  padding-top: 93px;
+  padding-bottom: 150px;
+}
+
+.container-works{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators {
+    position: relative;
+    top: 440px;
+    z-index: 1;
+}
+
+.card{
+  width: 23rem;
+  border: 4px solid #FBCB0A;
+  background-color: black;
+}
+
+.card-body{
+  padding-bottom: 0;
+}
+
+.work-heading{
+  margin-bottom: 0;
+}
+
+.works-title{
+  text-align: center;
+  font-family:'Ubuntu', sans-serif;
+  margin-bottom: 30px;
+}
+
+.work-moredetails{
+  padding-left: 100px;
+  font-size: 12px;
+}
+
+.work-moredetails:hover{
+  padding-left: 100px;
+  font-size: 12px;
+  color: #6610f2;
+}
+
+
+/* skills section styling */
+#skills {
+  background-color: #1D2323;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.skills-title {
+  text-align: center;
+  font-family:'Ubuntu', sans-serif;
+  font-weight: bold;
+  padding: 0 0 60px 0;
+}
+
+.skill-icons {
+  font-size: 38px;
+}
+
+.img-size {
+  width: 60px;
+}
+
+.img-size.nodejs{
+  width: 75px;
+}
+
+ .skill-details{
+  text-align: left;
+  padding-left: 20px;
+}
+
+@media (max-width: 991.71px) {
+  .skill-details{
+    padding-top: 30px;
+    /* padding-left: 0px; */
+  }
+}
+
+
+/* skills section styling */
+.contact-title {
+  font-family:'Ubuntu', sans-serif;
+  text-align: center;
+  padding-top: 85px;
+}
+
+.contact-info {
+  padding-top: 150px;
+}
+
+.contact-margin {
+  margin-top: 2px;
+}
+
+.contact-span {
+  padding-left: 5px;
+}
+
+.social-appDiv {
+  margin-top: 10px;
+}
+
+.appIcon {
+  background-color: #FBCB0A;
+  color: black;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.appIcon:hover {
+  background-color: #ffc107;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px #ffc107;
+  width: 35px;
+}
+
+/* footer section styling */
+.footer {
+  text-align: center;
+  background-color: #1D2323;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+
+
+/* moreDetails Page's styling */
+.moreDetailsCard{
+  padding: 50px 0;
+}
+
+.card-edited{
+  width: auto;
+}
+
+.card-headTitle{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn-edited{
+  margin-top: 10px;
+}
+
+.source-code{
+  padding-bottom: 7px;
+}
+
+.btn-margins{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
